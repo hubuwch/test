@@ -129,7 +129,7 @@ public class AdviceInterceptor implements Interceptor {
         }
         return paramMap;
     }
-
+func2
     /**
      * 反射对象，增加对低版本Mybatis的支持
      *
@@ -154,5 +154,6 @@ public class AdviceInterceptor implements Interceptor {
     public static void setOperatorId(String id) {
         OPERATOR_ID.set(id);
     }
-
+func3
+func4
 }
